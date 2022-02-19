@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunshine_background"
+    tools:context=".LoginActivity">
+
+    <View
+        android:id="@+id/pinkish_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <com.tomer.fadingtextview.FadingTextView
+        android:id="@+id/fading_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/redressed"
+        app:layout_constraintBottom_toBottomOf="@+id/pinkish_cover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/appCompatImageView"
+        app:layout_constraintVertical_bias="0.46"
+        app:texts="@array/example_one"
+        app:timeout="1000" />
+
+    <TextView
+        android:id="@+id/wellcome_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/redressed"
+        android:gravity="center"
+        android:padding="20dp"
+        android:shadowColor="@color/light_greyish"
+        android:shadowRadius="30"
+        android:text="Let's start recording your life!"
+        android:textColor="@color/brown"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/google_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightyellow"
+        android:insetBottom="0dp"
+        android:minHeight="55dp"
+        android:text="Sign in with Google"
+        android:textAllCaps="false"
+        android:textColor="@color/brown"
+        app:cornerRadius="10dp"
+        app:elevation="0dp"
+        app:icon="@drawable/ic_google_icon_svg"
+        app:iconPadding="10dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wellcome_text_view"
+        app:strokeColor="@color/brown"
+        app:strokeWidth="1dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="256dp"
+        android:layout_height="262dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sunshine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

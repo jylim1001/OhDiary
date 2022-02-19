@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "363453037241",
+    "firebase_url": "https://ohdiary-default-rtdb.firebaseio.com",
+    "project_id": "ohdiary",
+    "storage_bucket": "ohdiary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363453037241:android:613851b703ada501a33968",
+        "android_client_info": {
+          "package_name": "com.example.ohdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363453037241-m86rcbbhi6itl66i6i5p8redeaorqa09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ohdiary",
+            "certificate_hash": "5fe31e1157daa0c740693230fac52df3cdc722f0"
+          }
+        },
+        {
+          "client_id": "363453037241-4qee180n6gvna8kq9ver1233ougf37ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVlc-U1SBF2WuWvWDmWR_Eme4nSRxg9ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363453037241-4qee180n6gvna8kq9ver1233ougf37ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
